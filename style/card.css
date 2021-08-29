@@ -1,0 +1,148 @@
+/*****************
+    - Header -
+*****************/
+header {
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	min-height:120px;
+	padding:50px 0;
+	color:#fff;
+	background: #383838 url(https://www.athenadesignstudio.com/plugins/switch/images/bg.jpg) no-repeat center center;
+	margin-bottom:30px
+}
+
+/* Logo */
+header .logo {
+	clear:both;
+    display:block;
+	text-align:center;
+    padding-bottom:10px;
+}
+
+/* Title */
+header h1 {
+    font-weight:300;
+    font-size:24px;
+    color:#eee;	
+	letter-spacing:2px;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 !important;
+	padding-bottom:25px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+input,
+p,
+a {
+    margin: 0px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+}
+
+.card-container {
+    padding: 100px 0px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.profile-card-2 {
+    width: 160px;
+    height: 240px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 14px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+    height: 100%;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+    font-size: 20px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #FFF;
+    font-size: 12px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter:grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 45px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 30px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
+/* Media Queries for the layout */
+
+@media screen and (max-width: 68em) {
+
+	
+  
+}
+
+@media screen and (max-width: 54em) {
+     
+    .profile-card-2 {
+        width: 190px !important;
+    }
+
+    .profile-card-2 img {
+        transition: all linear 0.25s;
+        width: 100%;
+        height: 100%;
+    }
+    
+}

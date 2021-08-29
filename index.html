@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/card.css">
+  <link rel="stylesheet" href="style/timeline.css">
+  <link rel="stylesheet" href="style/navbar.css">
+  <link rel="stylesheet" href="style/loader.css">
+
+  <!-- js -->
+  <link rel="JavaScript" href="js/navbar.js">
+
+  <!-- animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- counter jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    referrerpolicy="no-referrer"></script>
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <title>Denomination</title>
+</head>
+
+<body onload="loading()">
+
+  <!-- preloader -->
+
+  <div id="loading">
+
+  </div>
+
+  <!-- header -->
+
+  <section class="header head-gradient">
+    <div class="container">
+
+      <!-- navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="nav-link active" aria-current="page" href="#"><img src="assets/Img/logowhite.png" width=60 alt=""></a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item nav-hover mx-2">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item nav-hover mx-2">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item nav-hover mx-2">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <form class="d-flex m-media">
+              <button class="btn-hover color-2">Register</button>
+            </form>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="container hero px-5 py-5 ">
+      <div class="row align-item-center">
+        <div class="col-md-6 col-12 my-auto" data-aos="fade-up">
+          <h2 class="text-light my-1 fw-bolder">Denomination:<br>The Greatest Crypto Summit</h2>
+          <p class="text-white py-3">
+            Leader's talk | Trading Competition | Comedy Nights | and More
+          </p>
+          <form class="d-flex m-media">
+            <button class="btn-hover color-2">Register</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="custom-shape-divider-bottom-blue">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+  </section>
+
+
+  <!-- about -->
+
+  <section class="aboutus pb-5 pt-2 head-gradient" id="about">
+    <div class="container py-5">
+      <div class="row shape-div w-75 text-center mx-auto">
+        <div class="col-12" data-aos="fade-up">
+          <h2 class="fw-bold">About The Event</h2>
+          <hr class="w-25 mx-auto mt-2 mb-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat recusandae magni iste laborum dicta,
+            ullam repudiandae expedita velit sequi doloribus et consequatur iusto necessitatibus. Esse minima facilis,
+            blanditiis corporis aperiam repudiandae numquam?</p>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="custom-shape-divider-bottom-1630171128">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+
+
+  <!-- main -->
+
+  <section class="event head-gradient">
+
+    <div class="container py-5 mb-5 mt-3">
+
+      <!-- talk card -->
+
+      <div class="row">
+        <div class="col-12">
+
+          <div class="card my-3 shadow" data-aos="fade-left">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/Img/ee1.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Leader's Talk</h3>
+                  <hr class="w-25 mt-2 mb-3">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere quisquam cum
+                    aspernatur iure autem aliquid debitis provident temporibus mollitia! Magnam animi, aliquam, iste
+                    commodi odio autem, magni sapiente non enim fuga eum hic? Cumque sequi nesciunt nobis sit pariatur,
+                    doloribus veniam quam libero iure fugit id ad totam ipsa.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Competition -->
+
+        <div class="col-12">
+
+          <div class="card my-3 shadow" data-aos="fade-right">
+            <div class="row g-0">
+
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Trade Crypto Competition</h3>
+                  <hr class="w-25 mt-2 mb-3">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae incidunt
+                    asperiores aut? Illo tempore, laborum debitis porro obcaecati animi id tenetur. Dolorum eius
+                    voluptatum beatae ipsa vero aut quasi! Ad soluta facere, aperiam, in consectetur ducimus numquam vel
+                    quia fugit at quidem, ea maiores accusantium cupiditate ipsum voluptas corporis aliquam.</p>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/Img/ee2.jpg" class="img-fluid rounded-end" alt="...">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- comedy -->
+
+        <div class="col-12">
+
+          <div class="card my-3 shadow" data-aos="fade-left">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/Img/ee2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Stand Up Comedy Nights</h3>
+                  <hr class="w-25 mt-2 mb-3">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto
+                    temporibus ducimus necessitatibus sapiente! Quisquam, ratione modi amet blanditiis cumque asperiores
+                    fugit laudantium sunt suscipit culpa maxime id illum assumenda sed vero ullam nobis alias voluptatem
+                    a perspiciatis? Fugiat possimus officia voluptatum laudantium? Cupiditate illum magni dignissimos
+                    perspiciatis facilis minima.</p>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Crypto casino -->
+
+        <div class="col-12">
+
+          <div class="card my-3 shadow " data-aos="fade-right">
+            <div class="row g-0">
+
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Crypto Casino</h3>
+                  <hr class="w-25 mt-2 mb-3">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sequi quidem
+                    quisquam magnam sapiente, earum dignissimos labore, nihil deleniti provident voluptates blanditiis
+                    perferendis nostrum rem animi dolorem fugiat hic aliquam nesciunt praesentium. Distinctio itaque vel
+                    dicta magnam doloremque? Soluta quo unde maxime nesciunt commodi ut pariatur dolore ipsa hic nihil?
+                  </p>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/Img/ee4.jpg" class="img-fluid rounded-end" alt="...">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  </section>
+
+
+  <!-- speakers -->
+
+  <section class="speaker head-gradient">
+    <div class="container">
+
+      <div class="talkspeaker text-center mx-auto my-5 w-75" data-aos="fade-up">
+        <h2 class="fw-bold">Leaders</h2>
+        <hr class="w-25 mx-auto mt-2 mb-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit assumenda id voluptates itaque, beatae deserunt
+          suscipit.</p>
+      </div>
+
+      <div class="row justify-content-center">
+
+        <!-- row 1 -->
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-up"><img src="assets/Img/lm1.jpg" class="img img-responsive">
+            <h4 class="profile-name">Ratan Tata</h4>
+            <h4 class="profile-username">@ratantata</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-down"><img src="assets/Img/lm2.jpeg" class="img img-responsive">
+            <h4 class="profile-name">Gautam Adani</h4>
+            <h4 class="profile-username">@gautamadani</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-up"><img src="assets/Img/lm3.jpeg" class="img img-responsive">
+            <h4 class="profile-name">Azim Premji</h4>
+            <h4 class="profile-username">@azimpremji</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-down"><img src="assets/Img/lm4.jpg" class="img img-responsive">
+            <h4 class="profile-name">Vijay Sharma</h4>
+            <h4 class="profile-username">@vijaysharma</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-up"><img src="assets/Img/lm5.jpg" class="img img-responsive">
+            <h4 class="profile-name">Mukesh Ambani</h4>
+            <h4 class="profile-username">@mukeshambani</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- row 2 -->
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-down"><img src="assets/Img/lm6.jpg" class="img img-responsive">
+            <h4 class="profile-name">Nithin Kamath</h4>
+            <h4 class="profile-username">@nithinkamath</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-up"><img src="assets/Img/lm7.jpg" class="img img-responsive">
+            <h4 class="profile-name">Ritesh Agarwal</h4>
+            <h4 class="profile-username">@riteshagarwal</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-down"><img src="assets/Img/lm8.jpg" class="img img-responsive">
+            <h4 class="profile-name">R.K. Damani</h4>
+            <h4 class="profile-username">@damanirk</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-up"><img src="assets/Img/lm9.jpg" class="img img-responsive">
+            <h4 class="profile-name">Kunal Shah</h4>
+            <h4 class="profile-username">@kunalshah/h4>
+              <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mx-2">
+          <div class="profile-card-2" data-aos="flip-down"><img src="assets/Img/lm10.jpg" class="img img-responsive">
+            <h4 class="profile-name">Pratik Gandhi</h4>
+            <h4 class="profile-username">@pratikgandhi</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- row 3 -->
+
+      <div class="comspeaker text-center w-75 my-5 mx-auto" data-aos="fade-up">
+        <h2 class="fw-bold">Stand Up Comedians</h2>
+        <hr class="w-25 mx-auto mt-2 mb-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit assumenda id voluptates itaque, beatae deserunt
+          suscipit.</p>
+      </div>
+
+      <div class="row justify-content-center mx-auto">
+
+        <div class="col-md-3">
+          <div class="profile-card-2" data-aos="flip-up"><img src="assets/Img/c1.jpeg" class="img img-responsive">
+            <h4 class="profile-name">Anubhav Singh Bassi</h4>
+            <h4 class="profile-username">@beabassi</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="profile-card-2" data-aos="flip-down"><img src="assets/Img/c2.jpeg" class="img img-responsive">
+            <h4 class="profile-name">Aakash Gupta</h4>
+            <h4 class="profile-username">@skygupta</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="profile-card-2" data-aos="flip-up"><img src="assets/Img/cm3.jpg" class="img img-responsive">
+            <h4 class="profile-name">Abhishek Upmanyu</h4>
+            <h4 class="profile-username">@aupmanyu</h4>
+            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- timeline -->
+
+  <div class="timeback mt-5 py-5 px-2 head-gradient" id="schedule">
+
+    <div class="custom-shape-divider-top-1630174960">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+
+    <section class="timeline my-5">
+      <div class="container px-5">
+
+        <div class="content py-4" data-aos="fade-up-left">
+          <h1>Event Schedule</h1>
+          <hr class="w-25 mt-2 mb-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum autem corrupti veniam quisquam
+            voluptatibus, quibusdam minima quod ipsam blanditiis impedit natus sequi? Tenetur perferendis sint ab quas
+            deserunt quibusdam adipisci molestias iste?</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-month">
+            September, 2021
+          </div>
+          <div class="timeline-section">
+            <div class="timeline-date">
+              2, Monday
+            </div>
+
+            <!-- row 1 -->
+
+            <div class="row">
+
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    10:00 AM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Leader's Talk: Kunal Shah</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    12:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Trade Cyrpto Competition</div>
+                    <div class="box-item">Venue: Main Hall</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    <i class="fa fa-pencil text-info" aria-hidden="true"></i> 6:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Crypto Casino</div>
+                    <div class="box-item">Venue: Casino Hall</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    <i class="fa fa-pencil text-info" aria-hidden="true"></i> 8:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Stand Up Nights: Zakir Khan</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- row 2 -->
+
+          <div class="timeline-section">
+            <div class="timeline-date">
+              3, Tuesday
+            </div>
+
+            <div class="row">
+
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    10:00 AM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Leader's Talk: Kunal Shah</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    12:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Trade Cyrpto Competition</div>
+                    <div class="box-item">Venue: Main Hall</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    <i class="fa fa-pencil text-info" aria-hidden="true"></i> 6:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Crypto Casino</div>
+                    <div class="box-item">Venue: Casino Hall</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    <i class="fa fa-pencil text-info" aria-hidden="true"></i> 8:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Stand Up Nights: Zakir Khan</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="timeline-section">
+            <div class="timeline-date">
+              4, Wednesday
+            </div>
+
+            <!-- row 3 -->
+
+            <div class="row">
+
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    10:00 AM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Leader's Talk: Kunal Shah</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    12:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Trade Cyrpto Competition</div>
+                    <div class="box-item">Venue: Main Hall</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    <i class="fa fa-pencil text-info" aria-hidden="true"></i> 8:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Stand Up Nights: Zakir Khan</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="timeline-section">
+            <div class="timeline-date">
+              5, Thursday
+            </div>
+
+            <!-- row 3 -->
+
+            <div class="row">
+
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    10:00 AM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Leader's Talk: Kunal Shah</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    12:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Trade Cyrpto Competition</div>
+                    <div class="box-item">Venue: Main Hall</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    <i class="fa fa-pencil text-info" aria-hidden="true"></i> 8:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Stand Up Nights: Zakir Khan</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="timeline-section">
+            <div class="timeline-date">
+              6, Friday
+            </div>
+
+            <!-- row 3 -->
+
+            <div class="row">
+
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    10:00 AM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Leader's Talk: Kunal Shah</div>
+                    <div class="box-item">Venue: Auditorium</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="timeline-box my-2" data-aos="fade-up-left">
+                  <div class="box-title">
+                    12:00 PM
+                  </div>
+                  <div class="box-content text-light">
+                    <div class="box-item">Trade Cyrpto Competition</div>
+                    <div class="box-item">Venue: Main Hall</div>
+                  </div>
+                  <div class="box-footer">- Tyler</div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <div class="custom-shape-divider-bottom-1630171128">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+  </div>
+
+  <!-- daily quiz -->
+
+  <section class="quiz head-gradient">
+    <div class="container py-5 text-center text-dark align-item-center">
+      <div class="row">
+        <div class="col-12 col-md-6" data-aos="fade-up">
+          <h2 class="my-2 fw-bold">CryptoMania: Daily Quizzes</h2>
+          <hr class="w-25 mt-2 mx-auto mb-4">
+          <p class="my-3 mx-auto w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis est distinctio
+            temporibus, omnis voluptates quasi. Nam, suscipit nisi?</p>
+
+          <ul>
+            <li>Win Exciting prizes Online</li>
+            <li>Win Exciting prizes Online</li>
+            <li>Win Exciting prizes Online</li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6 text-center my-auto" data-aos="fade-up">
+          <img src="assets/Img/q1.jpg" class="rounded-3 shadow" alt="quiz">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- registration form -->
+
+  <section class="registration head-gradient py-5" id="Registration">
+
+    <div class="custom-shape-divider-top-1630174960">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+    <div class="container py-5">
+
+      <div class="card my-5 mx-auto" data-aos="fade-up">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/Img/f3.jpg" class="img-fluid rounded-start long" alt="...">
+            <img src="assets/Img/m6.jpg" class="img-fluid rounded-start short" alt="...">
+          </div>
+          <div class="col-md-8 p-4">
+            <div class="card-body">
+              <h3 class="mb-3 fw-bold">Register</h3>
+              <form class="row g-3">
+
+                <div class="col-md-6">
+                  <label for="inputState" class="form-label">First Name</label>
+                  <input type="text" class="form-control" placeholder="Sourabh" aria-label="First name">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputState" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" placeholder="Sikarwar" aria-label="Last name">
+                </div>
+                <div class="col-md-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Madhya Pradesh</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-12">
+                  <h4 class="my-3">Select Event</h4>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Leader's Talk
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Trade Crypto Competition
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Stand Up Comedy Nights
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Crypto Casino
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn-hover color-2 my-2 mx-0">Register</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="custom-shape-divider-bottom-1630171128">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- partners -->
+
+  <section class="partner head-gradient">
+    <div class="container p-5 text-center mx-auto" data-aos="fade-up">
+      <h2 class="my-2 fw-bold">Our Partners</h2>
+      <hr class="w-25 mx-auto mt-2 mb-4">
+      <p class="my-4 w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti optio aspernatur
+        illum rem
+        repellendus saepe. Blanditiis tempora accusamus quisquam facilis, beatae ipsa? Quod nobis quia reprehenderit,
+        mollitia quisquam iste vero ratione sunt!</p>
+
+      <div class="row my-5">
+        <div class="col-6 col-md-3 p-3">
+          <img src="assets/Img/p1.png" alt="p1">
+        </div>
+        <div class="col-6 col-md-3 p-3">
+          <img src="assets/Img/p1.png" alt="p1">
+        </div>
+        <div class="col-6 col-md-3 p-3">
+          <img src="assets/Img/p1.png" alt="p1">
+        </div>
+        <div class="col-6 col-md-3 p-3">
+          <img src="assets/Img/p1.png" alt="p1">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer>
+
+    <div class="custom-shape-divider-top-1630174960">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+    <div class="footer-top py-5">
+      <div class="container-fluid pt-5">
+        <div class="row ">
+          <div class="col-md-4 col-8 text-center mx-auto logodiv">
+            <img class="logo-footer" src="assets/Img/logowhite.png">
+          </div>
+          <div class="col-md-4 col-8 footer-contact">
+            <h3>Contact</h3>
+            <hr class="w-25 mt-2 mb-4">
+            <p><i class="fas fa-map-marker-alt"></i><br class="break"> 224, Asper society Cryptohouse
+              department, Bhopal</p>
+            <p><i class="fas fa-phone"></i><br class="break"> Phone: 9365711854, 07411125478</p>
+            <p><i class="fas fa-envelope"></i><br class="break"> Email: <a
+                href="CryptoCoin@domain.com">hello@domain.com</a>
+            </p>
+            <p><i class="fab fa-skype"></i><br class="break"> Skype: Crypto_rocks</p>
+          </div>
+
+          <div class="col-md-4 col-8 footer-links">
+            <h3>Links</h3>
+            <hr class="w-25 mt-2 mb-4">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Register</a></li>
+
+              <li><a href="#">Terms and conditions</a></li>
+          </div>
+        </div>
+      </div>
+
+      <div class="contactby text-center mt-5">
+        <h5>Connect with us by </h5>
+        <div class="footer-social mt-4">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p>Copyright @Denomination</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <!-- preloader js -->
+
+  <script>
+    var preloader = document.getElementById('loading');
+    function loading() {
+      preloader.style.display = 'none';
+    }
+  </script>
+
+  <!-- Aos js -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      offset: 120,
+      duration: 600
+    }
+    );
+  </script>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
