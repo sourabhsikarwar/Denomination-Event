@@ -91,7 +91,7 @@ html, body{
 /* horizontal line */
 
 hr{
-    background: -webkit-linear-gradient(#f5ce62, #ca9400) !important;
+    background: -webkit-linear-gradient(#f5ce62, #000000) !important;
     opacity: .75 !important;
     border: 1px solid #f5ce62;
     border-radius: 5px;

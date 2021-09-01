@@ -1,7 +1,7 @@
 
 .timeback{
   position: relative;
-  background: url("..assets/Img/m1.jpg") rgba(0, 0, 17, 0.85) no-repeat;
+  background: url("../assets/Img/m1.jpg") rgba(0, 0, 17, 0.85) no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
