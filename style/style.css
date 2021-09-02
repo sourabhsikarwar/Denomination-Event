@@ -16,7 +16,7 @@ html, body{
 /* colors */
 
 .head-gradient h1{
-    font-size: 44px;
+    font-size: 48px;
     background: -webkit-linear-gradient(#f5ce62, #ca9400);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -270,11 +270,13 @@ hr{
 }
 .quiz p{
     font-size: 14px;
+    font-weight: bolder;
 }
 .quiz ul{
     list-style: none;
     padding: 0;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 
@@ -409,6 +411,14 @@ footer .break{
 }
 
 @media screen and (max-width: 54em) {
+
+    .head-gradient h1{
+        font-size: 32px;
+    }
+
+    .header .hero{
+        margin: 0 !important;
+    }
 	 
     footer .footer-top .footer-contact,
     footer .footer-top .footer-links{
